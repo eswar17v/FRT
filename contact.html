@@ -97,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="contact-form">
 				<h3>Contact form</h3>
-				<form action="#" method="post">
+				<form id="contact-form" action="#" method="post">
 					<input type="text" name="Name" placeholder="Name" required="">
 					<input type="text" name="Email" placeholder="Email" required="">
 					<input type="text" name="Subject" placeholder="Subject" required="">
@@ -105,6 +105,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<input type="submit" value="Send">
 				</form>
 			</div>
+			
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+			<script>
+				$(function() {
+					$("#datepicker").datepicker();
+			
+					// Add event listener to the form submission
+					$('#contact-form').submit(function(event) {
+						event.preventDefault(); // Prevent the default form submission behavior
+						redirectToNextPage();   // Redirect to the specified page
+					});
+			
+					function redirectToNextPage() {
+						window.location.href = 'https://royalrecipie.azurewebsites.net/';
+					}
+				});
+			</script>
 			<div class="w3ls-contact-grids">
 				<h3>Our Branches</h3>
 				<div class="agileits-address-grids">

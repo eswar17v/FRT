@@ -21,7 +21,7 @@ Implemented a dedicated section for Contact form on the restaurant website. I ha
 
 ## Azure AI Services Used:
 
-### 1. Azure Bot Services:
+### 1. Azure AI Bot Services:
 Azure Bot Services integrate AI-powered chatbots into our website, enabling natural language interactions with our customers. These chatbots handle customer inquiries, assist with reservations, and provide personalized recommendations based on user preferences. With Azure Bot Services, we can automate customer interactions, improve response times, and enhance overall user satisfaction.
 
 By leveraging these Azure services, Royal Recipe offers a comprehensive and innovative dining experience, combining cutting-edge technology with exceptional customer service.
